@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=1 python ../eval.py \
-                    --val_img_dir='../dataset/WFLW_test/images/' \
+                    --val_img_dir='C:\\Users\\Ribhav\\Desktop\\everything\\python_scripts\\Ocelot1_images' \\
                     --val_landmarks_dir='../dataset/WFLW_test/landmarks/' \
                     --ckpt_save_path='../experiments/eval_iccv_0620' \
                     --hg_blocks=4 \
